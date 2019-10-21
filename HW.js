@@ -1,5 +1,32 @@
+// 1)	Create a function that returns the sum of all elements passed in array as parameter. Function (array)=>number
+
+// let arr = [1,6,23,8,4,8,3,7];
+// let arrLenght = arr.length;  
+
+//   function summary(arrIn) {
+//       let sumIN = 0;
+      
+//       for (let i = 0; i <arrLenght; i++){
+//         sumIN = arrIn[i] + sumIN;
+//       }
+      
+//       return sumIN;
+//   };
+// let sum = summary(arr);
+// console.log(sum);
 
 
+
+// let arr = [1,6,23,8,4,8,3,7];
+// let sum = 0;
+// let lenght = arr.length;
+// function summary(sum) {
+
+//     for (let i = 0; i < lenght; i++)
+//     sum = arr[i] + sum;
+//     return sum;
+// };
+// console.log(summary(sum));
 
 
 
@@ -52,23 +79,22 @@
     //     rev(arr);
     //     console.log(arr);
 
+// WERSJA SAKE
+    // let arr=[1,6,23,8,4,8,3,7];
+    // let arrLeng=arr.length;
 
+    // function rev(arrIn) {
 
-    let arr=[1,6,23,8,4,8,3,7];
-    let arrLeng=arr.length;
-
-    function rev(arrIn) {
-
-            let arrbackwards = arrIn;
-            let rev = [];
-            for(let i = 0 ; i<arrLeng;i++){
-              rev[arrLeng -i -1]=arrbackwards[i];
-            }
-            return rev;
-    };
+    //         let arrbackwards = arrIn;
+    //         let rev = [];
+    //         for(let i = 0 ; i<arrLeng;i++){
+    //           rev[arrLeng -i -1]=arrbackwards[i];
+    //         }
+    //         return rev;
+    // };
     
-        let r = rev(arr);
-        console.log(r);
+    //     let r = rev(arr);
+    //     console.log(r);
 
 
 
@@ -78,10 +104,84 @@
 
 //     let arr=[1,6,23,8,4,8,3,7];
 //     let arrLeng=arr.length;
-
+    
 // function arrSum(arrIn) {
+//   let sum = 0
+//   let i = 0
+//   while ( i < arrLeng) {
 
-//     for(i = 0; i < arrLeng; i++)
-// if(i=arrIn[0])
+//        sum = arrIn[i] + arrIn[i+1];
+//       i = i + 2;
+//       return sum;
 
 // };
+// };
+// sum = arrSum(arr);
+// console.log(sum);
+
+
+// let arr=[1,6,23,8,4,8,3,7];
+//     let arrLeng=arr.length;
+    
+// function arrSum(arrIn) {
+//    let i = 0;
+//    let j = 0;
+//     let sum =[];
+//     while(i < arrLeng) {
+     
+//       sum[j] = arrIn[i] + arrIn[i+1];
+//       i = i + 2;
+      
+//       j++;
+      
+      
+//     };
+//     return sum;
+// };
+
+//  console.log(arrSum(arr));
+
+
+
+//  6)	For time of this example remove last element from the given array. Create a function that based on given array return new array in pattern [a,b,c,d,e] -> [a+b, c+d, e+e]
+
+
+
+// let arr=[1,6,23,8,4,8,3];
+//     let arrLeng=arr.length;
+    
+// function arrSum(arrIn) {
+//    let i = 0;
+//    let j = 0;
+//     let sum =[];
+//     while(i < arrLeng -1) {
+     
+//       sum[j] = arrIn[i] + arrIn[i+1];
+//       i = i + 2;
+      
+//       j++;
+      
+      
+//     };
+//     sum[sum.length]=arrIn[arrIn.length-1] + arrIn[arrIn.length-1];
+//     return sum;
+// };
+
+//  console.log(arrSum(arr));
+
+
+
+
+// 7)	Create a function the return one random element from given array. // use random function 
+
+
+
+// let arr=[1,6,23,8,4,8,3,7];
+//     let arrLeng=arr.length;
+   
+//     function returnRandom(arrIn) {
+//       let x = arrIn[Math.floor(Math.random()*arrIn.length)];
+//  return x;
+//     };
+// console.log(returnRandom(arr));
+    
