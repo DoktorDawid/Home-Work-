@@ -184,4 +184,106 @@
 //  return x;
 //     };
 // console.log(returnRandom(arr));
+
+
+
+
+
+
+
+
+// 9)	Create a function that takes given array. Then takes a random element, 
+// removes it from the array and pushes it to result arrays. 
+// This takes place as long as there are elements in source array. 
+
+
+// let arr=[1,6,23,8,4,8,3,7];
+//     let arrLeng=arr.length;
+    
+//     function takesArr(arrIn) {
+//         let resultArr = [];
+        
+//         let randIn = arrIn.splice(Math.floor(Math.random()*arrIn.length), 1)
+       
+//                 return randIn;
+    
+        
+//     };
+
+//     console.log(takesArr(arr));
+
+
+
+
+// 11)	Create a function that will return the current day name in Polish. 
+
+// let today = new Date();
+// function getD(dat) {
+//     let someday = new Date();
+//     let x = someday.getDay();
+//     switch(x){
+//         case 1:
+//         x="Poniedzialek";
+//         break;
+//         case 2:
+//             x="Wtorek";
+//             break;
+//         case 3:
+//             x="Sroda"
+//             break;
+//         case 4:
+//             x="Czwartek";
+//             break;
+//         case 5:
+//             x="Piatek";
+//             break;
+//         case 6:
+//             x="Sobota";
+//             break;
+//         case 7:
+//             x="Niedziela";
+//             break;
+
+//     }
+//     return x;
+// };
+    
+
+// console.log(getD(today));
+
+
+
+// 12)	Create a function that tells us how many days till Friday 
+
+// let today = new Date();
+
+// function count(days) {
+//     let someday = new Date();
+//     let x = someday.getDay();
+// if ( x===5) {
+//     x = "dziś jest piatek"
+// } else {
+//     if(x<5){
+//         x= 5-x;
+//         console.log("do piatku" ,x , "dni")
+//     }
+//     else {
+//         x=5+(-x);
+//         console.log("do piatku" ,x , "dni");
+//     } if(x===6) {
+//         x=x+1
+//         console.log("do piatku", x , "dni");
+//     } else {
+//         if(x===7) {
+//             console.log("do piatku zostalo 5 dni ")
+//         };
+//         };
+    
+//     };
+    
+
+// return x;
+
+// };
+// console.log(count(today));
     
