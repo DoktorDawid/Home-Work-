@@ -197,19 +197,21 @@
 // This takes place as long as there are elements in source array. 
 
 
+
 // let arr=[1,6,23,8,4,8,3,7];
 //     let arrLeng=arr.length;
     
 //     function takesArr(arrIn) {
 //         let resultArr = [];
-        
-//         let randIn = arrIn.splice(Math.floor(Math.random()*arrIn.length), 1)
-       
-//                 return randIn;
-    
-        
+//         let i = 0 
+//         let randIn = arrIn.splice(Math.floor(Math.random()*arrIn.length), 1);
+//         console.log(randIn)
+//        while( i <= arrIn.length){
+//              resultArr.push(randIn);
+//            i++;
+//        };
+//                 return resultArr;
 //     };
-
 //     console.log(takesArr(arr));
 
 
