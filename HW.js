@@ -187,7 +187,27 @@
 
 
 
+// 8 
+// let arr=[1,6,23,8,4,8,3,7];
+// let att = 5;
+// let min = [];
+// let ite = 0;
 
+// while (ite<att){
+// ite++;
+// dupa = arr[Math.floor(Math.random()*arr.length)];
+// console.log(dupa);
+// min.push(dupa);
+// }
+// console.log(min);
+
+// for (let i=0; i= min.length; i++){
+//     let mini2= min;
+// if(min[i]<mini2)
+// {min[i]=mini2};
+// console.log("najnizsza,to: ", mini2);
+// };
+// console.log("najnizsza,to: ", mini2);
 
 
 
