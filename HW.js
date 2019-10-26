@@ -231,17 +231,38 @@
 //     let arrLeng=arr.length;
     
 //     function takesArr(arrIn) {
+//       let newArr = [];
+//         let i = 0
+        
+//        while( i < arrIn.length){
+        
+//         let randIn = Math.floor(Math.random()*arrIn.length)
+//          let splicedFromArrIn = arrIn.splice(randIn, 1);
+//          newArr.push(splicedFromArrIn[i]);
+        
+//        }
+//   console.log(newArr);
+               
+//     }
+// takesArr(arr);
+
+// let arr=[1,6,23,8,4,8,3,7];
+//     let arrLeng=arr.length;
+    
+//     function takesArr(arrIn) {
 //         let resultArr = [];
 //         let i = 0 
+       
+        
+//        while( i < arrIn.length){
 //         let randIn = arrIn.splice(Math.floor(Math.random()*arrIn.length), 1);
-//         console.log(randIn)
-//        while( i <= arrIn.length){
-//              resultArr.push(randIn);
-//            i++;
+//              resultArr.push(randIn[i]);
+//            console.log(resultArr);
 //        };
-//                 return resultArr;
+              
 //     };
-//     console.log(takesArr(arr));
+//  takesArr(arr);
+
 
 
 
