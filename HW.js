@@ -364,3 +364,20 @@
 // };
 // console.log(count(today));
     
+
+
+
+// 13)	Create a function that take two numbers and return the object with 4 fields. 
+// Result on 4 basic arithmetic operations. 
+
+
+// let w = function takesTwoNumbers(x, y) {
+//  let operations = {
+//    sum : x + y,
+//    odd : x - y,
+//    mult : x * y,
+//    div : x / y 
+//  }; 
+//   return operations
+// };
+ 
