@@ -267,6 +267,31 @@
 
 
 
+// 10)	Create a function that on given array will perform operation of adding or subtracting elements. 
+// Operation is to be chosen at random. And return a result.[a,b,c,d] =>(((a+-b)+-c)+-d)
+
+//  let arr=[1,6,23,8,4,8,3,7];
+//  function addSubb(arrIn) {
+// let indeksArr = arrIn[0];
+
+// for ( i = 0 ; i < arrIn.length ; i++) {
+//   let randOp = Math.random();
+//   if ( randOp > 0.5){
+//     indeksArr = indeksArr + arrIn[i]
+//   } else {
+//       indeksArr = indeksArr - arrIn[i];
+//     }
+    
+//   }
+//   return indeksArr;
+//  };
+
+// console.log(addSubb(arr));
+
+
+
+
+
 // 11)	Create a function that will return the current day name in Polish. 
 
 // let today = new Date();
